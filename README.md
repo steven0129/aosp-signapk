@@ -10,4 +10,6 @@ and is just here for convenient access along with a prebuilt jarfile.
 
 Eg.
 
-    java -jar prebuilt/aospsign.jar -w key-name.x509.pem key-name.pk8 unsigned.zip signed.zip
+```
+jdk/jdk8/linux-x86/bin/java -jar prebuilt/aospsign.jar -w aosp_test_keys/platform.x509.pem aosp_test_keys/platform.pk8 test.apk test-signed.apk
+```
